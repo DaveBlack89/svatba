@@ -1,0 +1,341 @@
+@import url('https://fonts.cdnfonts.com/css/onelove');
+
+
+
+.main{
+  min-height: calc(100vh - 211px);
+  background-color: #F2EFDF;
+  
+}
+
+
+.horizontalline{
+  text-align: center;
+}
+
+.horizontallinetop{
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+.nadpishlavni{
+
+  font-family: "Courier New";
+  font-size: 1.7em;
+  padding-top: 3%;
+  text-align: center;
+}
+
+.navnadpis{
+  font-family: 'onelove';
+  font-weight: bold;
+  font-size: 2.8em;
+
+}
+
+.maleslunecnice{
+width: 5em;
+}
+
+.header{
+background-color: #3b6730;
+}
+
+.Svatba{
+  font-family: 'onelove';
+  font-size: 3em;
+  text-align: center;
+  font-weight: bold;
+}
+.kdykdeprogram{
+  font-family: 'onelove';
+  font-size: 1.8em;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+.textclasic{
+  font-family: "Courier New";
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.rotate{
+  transform: rotate(180deg);
+
+}
+
+.texttable{
+  font-family: "Courier New";
+  font-size: 1.1em;
+
+}
+
+.googlemaps{
+  color: black !important;
+}
+
+
+
+.h2text{
+  font-family: "Courier New";
+  font-size: 1.4em;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.odsazeni{
+  padding-top: 5%;
+}
+
+.odsazenitextinformace{
+  padding-top: 3%;
+}
+
+.phonenumber{
+  font-family: "Courier New";
+  font-size: 1.3em;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 4%;
+}
+.clasicparagraf {
+  font-family: "Courier New";
+  font-size: 1.1em;
+
+}
+.textinformace{
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+
+.obrazekkasicka{
+  max-width: 70% !important;
+
+}
+
+.obrazkyikony{
+  width: 110px !important;
+  margin-bottom: 3%;
+  margin-top: 3%;
+
+}
+
+.obrayekjidlo{
+  width: 100px !important;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+.QR{
+  width: 250px !important;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+.proobrazek{
+  margin-top: 3% !important;
+}
+
+
+@media (max-width: 770px ) {
+  .textinformace{
+  margin-left: 0px;
+  margin-right: 0px;
+  }
+  .obrazkyikony{
+    width: 100px !important;
+  }
+  .maleslunecnice{
+    width: 40px !important;
+  }
+
+  .Svatba{
+    font-size: 2.5em;
+  }
+  .obrazekkasicka{
+    max-width: 100% !important;
+
+  }
+
+  .clasicparagraf{
+    font-size: 0.9em;
+  }
+  .odsazeniprosvatebnidary{
+    height: 500px;
+  }
+  .obrazekkasicka{
+    height: 500px;
+  }
+
+  .odsazeni{
+    padding-top: 10%;
+  }
+}
+
+/* kontaktni formular  */
+.form{
+	background-color: #F2EFDF;
+	padding: 20px;
+  margin-bottom: 6%;
+
+}
+.form h1{
+	text-align: center;
+	margin-bottom: 20px;
+	width: 100%;
+  font-size: 2em;
+  font-family: "Courier New" !important;
+  color: black;
+}
+.form label{
+font-family: "Courier New" !important;
+font-size: 1.1em;
+color: black;
+}
+.form form{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+
+
+}
+
+.beztecek{
+  list-style-type: none;
+  padding: 0;
+  font-size: 0.9em;
+}
+.flex-rev {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 10px;
+		width: 100%;
+}
+
+.flex-rev input, .flex-rev textarea {
+    border: none;
+    background-color: #e6e6e6;
+    padding: 12px 10px;
+    font-size: 16px;
+    resize: none;
+    margin-top: 7px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    color: #243342;
+    outline-color: #243342;
+    outline-width: thin;
+	 -webkit-appearance: none;
+}
+.flex-rev textarea{
+	height: 150px;
+}
+
+.kontakttlacitko {
+  background-color: #F2EFDF; /* zakladni */
+  border: none;
+  color: black;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Courier New" !important;
+  font-size: 1.4em;
+}
+/* kontaktni formular  */
+
+/* galerka vyskkujici obrazek  */
+
+div.gallery {
+
+  border: 1px solid #ccc;
+  width: 50%;
+  margin-bottom: 1em;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+/* galerka vyskkujici obrazek  */
+
+
+/* slunecnicove kolecko  */
+.divslunecnicekolecko{ /*  container  */
+  position: relative !important;
+  text-align: center;
+
+}
+
+
+
+.odsazeniprosvatebnidary{
+  padding-top: 3%;
+  padding-bottom: 3%;
+  position: relative;
+  text-align: center;
+}
+
+.textvobrazku{
+
+    background-color: #F2EFDF;
+    border: 1px solid #F2EFDF;
+    color: black;
+    background-color: #F2EFDF;
+
+    text-align: center!important;
+
+    display: flex;
+
+    align-items: center;
+    position: absolute;
+      top: 50%;
+      left: 50%;
+
+
+      transform: translate(-50%, -50%);
+}
+
+
+/*  Horizontalscroling */
+.box{
+/*   background: linear-gradient(to right, #ee0979, #ff6a00); */
+  background: #006D5B;
+  height: 5px;
+  width: 0%;
+
+  top: 0;
+  border-radius: 0 15px 15px 0;
+
+}
+
+.headerrollbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  margin-left: 23%;
+  margin-right: 10%;
+  text-align: center!important;
+
+}
+
+.progress-container {
+  width: 25%;
+  height: 5px;
+  background: #ccc;
+}
+
+
+/*  Horizontalscroling konec */
+
+
+/* slunecnicove kolecko  */
